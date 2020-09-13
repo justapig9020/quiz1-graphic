@@ -1,0 +1,9 @@
+digraph add_entry
+{
+    rankdir=LR;
+    node [shape=record];
+    node1 [label="{<value>value | <next> next }", color=red];
+    head [shaoe=box];
+    node0 [label="{<value>value | <next> next }", color=green];
+    head -> node0:value;
+}
