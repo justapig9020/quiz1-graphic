@@ -5,6 +5,6 @@ digraph add_entry
     node1 [label="{<value>value | <next> }", color=red];
     head [shaoe=box];
     node0 [label="{<value>value | <next> next }", color=green];
-    head -> node1:value;
+    head -> node0:value;
     node1:next:c -> node0:value [arrowtail=dot, dir=both, tailclip=false];
 }
