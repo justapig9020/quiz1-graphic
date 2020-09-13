@@ -1,0 +1,6 @@
+graph struct
+{
+    rankdir=LR
+    node [shape=record];
+    struct [label="{value | next}"];
+}
